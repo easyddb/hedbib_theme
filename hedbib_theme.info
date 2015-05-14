@@ -1,0 +1,9 @@
+;----------// Theme Information
+  name        = Hedbib theme
+  description = Hedbib subtheme
+  core        = 7.x
+  release     = 7.x-1.x
+
+  base theme = ddbasic
+  
+  stylesheets[all][] = css/hedbib.styles.css

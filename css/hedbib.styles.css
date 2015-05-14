@@ -1,0 +1,430 @@
+/**
+ * Variables
+ *
+ * @author magnify
+ */
+/* Spacing variables
+   ========================================================================== */
+/* Zen Grid variables
+   ========================================================================== */
+/* Breakpoints
+   ========================================================================== */
+/* Standard color definitions
+   ========================================================================== */
+/* Font library
+   ========================================================================== */
+/* Typography
+   ========================================================================== */
+/* Font variables
+   ========================================================================== */
+/* Font sizes
+   ========================================================================== */
+/* Labels
+   ========================================================================== */
+/* Navigation
+   ========================================================================== */
+/* Availability
+   ========================================================================== */
+/**
+ * Colors that can be configured through theme settings.
+ *
+ * Every color settings MUST be in HEX format..
+ * @author magnify
+ */
+/* Topbar */
+/* Header */
+/* Navigation */
+/* Tabroll */
+/* Links */
+/* Labels */
+/* Content */
+/* List */
+/* Footer */
+/* Buttons */
+/* Dialog box */
+/* Funny facts */
+/**
+ * Rules that can be configured is located in this file.
+ *
+ * @author magnify
+ */
+/* Topbar background color */
+/* line 9, ../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_configuration.scss */
+.topbar {
+  padding-top: 20px;
+  background-color: #ececec;
+}
+
+/* Header background color */
+/* line 17, ../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_configuration.scss */
+.header-wrapper {
+  background-color: #6bafdb;
+}
+
+/* Navigation background color */
+/* line 24, ../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_configuration.scss */
+.navigation-wrapper {
+  background-color: #1f3245;
+}
+
+/* Links */
+/* line 31, ../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_configuration.scss */
+a {
+  font-weight: 400;
+}
+/* line 34, ../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_configuration.scss */
+a:link {
+  color: #fb9900;
+  text-decoration: none;
+}
+/* line 39, ../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_configuration.scss */
+a:visited {
+  color: #ae6a00;
+  text-decoration: none;
+}
+/* line 44, ../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_configuration.scss */
+a:hover {
+  color: #b46e01;
+  text-decoration: underline;
+}
+/* line 48, ../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_configuration.scss */
+a:hover i[class^="icon-"] {
+  text-decoration: none;
+}
+/* line 53, ../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_configuration.scss */
+a:focus {
+  color: #b46e01;
+}
+
+/* Layout background color */
+/* line 61, ../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_configuration.scss */
+.layout-wrapper {
+  background-color: #fffffe;
+}
+
+/* Article background extends */
+/* Footer background color */
+/* line 83, ../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_configuration.scss */
+.footer {
+  background-color: #8cc63c;
+}
+
+/* Bottom background color */
+/* line 90, ../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_configuration.scss */
+.bottom {
+  background-color: #7eb435;
+}
+
+/**
+ * Mixins
+ *
+ * @author magnify
+ */
+/* Media query
+   ========================================================================== */
+/* Breakpoints
+   ========================================================================== */
+/* Typography mixins
+ *
+ * These are mixins to allow for use in media queries
+   ========================================================================== */
+/* Availability
+   ========================================================================== */
+/* Pseudo arrow
+ *
+ * Usage example: pseudo-arrow(10px, #000, top, center, $offset: 20px)
+   ========================================================================== */
+/**
+ * Buttons
+ *
+ * @author magnify
+ */
+/* Variables
+   ========================================================================== */
+/* Extends
+   ========================================================================== */
+/* Mixins
+   ========================================================================== */
+/* Default button, we dont use gradiant mixin sin since it's part of color module */
+/* line 97, ../../../../../profiles/ding2/themes/ddbasic/sass/framework/_buttons.scss */
+.button,
+a.button {
+  background-color: #444443;
+  border: 1px;
+  color: #fffff8;
+  line-height: 100%;
+  padding: 8px 14px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ0NDQ0MyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFlMWUxZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #444443), color-stop(100%, #1e1e1f));
+  background-image: -moz-linear-gradient(#444443, #1e1e1f);
+  background-image: -webkit-linear-gradient(#444443, #1e1e1f);
+  background-image: linear-gradient(#444443, #1e1e1f);
+}
+/* line 109, ../../../../../profiles/ding2/themes/ddbasic/sass/framework/_buttons.scss */
+.button:link, .button:visited, .button:focus, .button:active,
+a.button:link,
+a.button:visited,
+a.button:focus,
+a.button:active {
+  color: #fffff8;
+  text-decoration: none;
+  background-image: none;
+  background-color: #444443;
+}
+/* line 119, ../../../../../profiles/ding2/themes/ddbasic/sass/framework/_buttons.scss */
+.button:hover,
+a.button:hover {
+  background-color: #1e1e1e;
+  background-image: none;
+}
+
+/* Default button */
+/* Theme button */
+/* Action button */
+/* Warning button */
+/* Danger button */
+/* Don't use native buttons on iOS */
+/* line 152, ../../../../../profiles/ding2/themes/ddbasic/sass/framework/_buttons.scss */
+input[type=submit].button,
+button.button {
+  -webkit-appearance: none;
+}
+
+/* Correct FF button padding */
+@-moz-document url-prefix() {
+  /* line 160, ../../../../../profiles/ding2/themes/ddbasic/sass/framework/_buttons.scss */
+  button::-moz-focus-inner,
+  input[type="reset"]::-moz-focus-inner,
+  input[type="button"]::-moz-focus-inner,
+  input[type="submit"]::-moz-focus-inner,
+  input[type="file"] > input[type="button"]::-moz-focus-inner {
+    border: none;
+    padding: 0;
+  }
+}
+/* line 1, ../sass/_custom.scss */
+body {
+  font-size: 110%;
+}
+
+/* line 5, ../sass/_custom.scss */
+.search label,
+.search-field-in-content label,
+.user label {
+  color: #1f3244;
+}
+
+/* line 11, ../sass/_custom.scss */
+.topbar-menu .menu-item {
+  color: #1f3244;
+}
+
+/* line 16, ../sass/_custom.scss */
+.topbar-menu .menu-item.active,
+.topbar-menu .menu-item:hover {
+  background-color: #6bafdb;
+}
+
+/* line 22, ../sass/_custom.scss */
+.site-name a {
+  display: none;
+}
+
+/* line 26, ../sass/_custom.scss */
+.main-menu .menu-item,
+.header-wrapper .pane-user-menu .sub-menu .menu-item,
+.secondary-menu .menu-item,
+.system-user-menu .menu-item {
+  color: #fffffc;
+}
+
+/* line 33, ../sass/_custom.scss */
+.main-menu .menu-item.active,
+.header-wrapper .pane-user-menu .sub-menu .menu-item.active,
+.secondary-menu .menu-item.active,
+.system-user-menu .menu-item.active,
+.pane-ding-facetbrowser a:visited,
+.pane-search-backends a:visited,
+.pane-ding-toggle-format-toggle #ding-toggle-format.ding-toggle-format-short:before,
+.pane-ding-toggle-format-toggle #ding-toggle-format.ding-toggle-format-long:after,
+.pane-ting-object .collapsible .field-group-format-title:before,
+.pane-ting-object .ding-periodical-fold:before,
+.main-menu .menu-item:hover,
+.header-wrapper .pane-user-menu .sub-menu .menu-item:hover,
+.secondary-menu .menu-item:hover,
+.system-user-menu .menu-item:hover {
+  color: #8cc63e;
+}
+
+/* line 50, ../sass/_custom.scss */
+.label a:link,
+.view-node-search-result .list-item .field-type-taxonomy-term-reference a a:link,
+.ting-reference-reverse-list .list-item .field-type-taxonomy-term-reference a a:link,
+.subjects .subject a:link,
+.news-list .news-label a:link,
+.super-heading .field-name-field-ding-news-library .field-item a:link,
+.label a:visited,
+.view-node-search-result .list-item .field-type-taxonomy-term-reference a a:visited,
+.ting-reference-reverse-list .list-item .field-type-taxonomy-term-reference a a:visited,
+.subjects .subject a:visited,
+.news-list .news-label a:visited,
+.super-heading .field-name-field-ding-news-library .field-item a:visited {
+  background-color: #8cc63a;
+}
+
+/* line 65, ../sass/_custom.scss */
+.ding_nodelist .event-time .event-day,
+.ding_nodelist-carousel .pagination .selected,
+.ding_nodelist-slider .next-prev a:hover,
+.event-list-leaf .event-list-day {
+  background-color: #fb9900;
+}
+
+/* line 72, ../sass/_custom.scss */
+.sub-menu > li a,
+.sub-menu li:before {
+  color: #fb9900;
+}
+
+/* line 77, ../sass/_custom.scss */
+.sub-menu > li a:hover,
+.sub-menu li:before:hover {
+  color: #b46e01;
+}
+
+/* line 82, ../sass/_custom.scss */
+.bottom {
+  background-color: #191919;
+}
+
+/* line 86, ../sass/_custom.scss */
+.ding_nodelist-carousel .node,
+.ding_nodelist.ding_nodelist-horizontal_accordion .data,
+.ding_nodelist-single .node,
+.ding_nodelist-vertical_accordion .va-content {
+  background: rgba(31, 50, 69, 0.85);
+}
+
+/* line 93, ../sass/_custom.scss */
+.field-name-ding-entity-buttons .reserve-button:link,
+.button-see-online:link,
+.ticket-available:link,
+.pane-reservations .renew-loan-button .renewable:link,
+.pane-loans .renew-loan-button .renewable:link,
+.pane-debts .renew-loan-button .renewable:link,
+.pane-bookmarks .renew-loan-button .renewable:link,
+.pane-reservations .reserve-button:link,
+.pane-loans .reserve-button:link,
+.pane-debts .reserve-button:link,
+.pane-bookmarks .reserve-button:link,
+.pane-reservations .update-reservations .form-submit:link,
+.pane-reservations .renew-loan-button .form-submit:link,
+.pane-loans .update-reservations .form-submit:link,
+.pane-loans .renew-loan-button .form-submit:link,
+.pane-debts .update-reservations .form-submit:link,
+.pane-debts .renew-loan-button .form-submit:link,
+.pane-bookmarks .update-reservations .form-submit:link,
+.pane-bookmarks .renew-loan-button .form-submit:link,
+.pane-debts .pay-button .form-submit:link,
+.alma-item-list .item-details .reserve-button:link,
+.ding-item-list-item .item-details .reserve-button:link,
+.field-name-ding-entity-buttons .reserve-button:visited,
+.button-see-online:visited,
+.ticket-available:visited,
+.pane-reservations .renew-loan-button .renewable:visited,
+.pane-loans .renew-loan-button .renewable:visited,
+.pane-debts .renew-loan-button .renewable:visited,
+.pane-bookmarks .renew-loan-button .renewable:visited,
+.pane-reservations .reserve-button:visited,
+.pane-loans .reserve-button:visited,
+.pane-debts .reserve-button:visited,
+.pane-bookmarks .reserve-button:visited,
+.pane-reservations .update-reservations .form-submit:visited,
+.pane-reservations .renew-loan-button .form-submit:visited,
+.pane-loans .update-reservations .form-submit:visited,
+.pane-loans .renew-loan-button .form-submit:visited,
+.pane-debts .update-reservations .form-submit:visited,
+.pane-debts .renew-loan-button .form-submit:visited,
+.pane-bookmarks .update-reservations .form-submit:visited,
+.pane-bookmarks .renew-loan-button .form-submit:visited,
+.pane-debts .pay-button .form-submit:visited,
+.alma-item-list .item-details .reserve-button:visited,
+.ding-item-list-item .item-details .reserve-button:visited,
+.field-name-ding-entity-buttons .reserve-button:focus,
+.button-see-online:focus,
+.ticket-available:focus,
+.pane-reservations .renew-loan-button .renewable:focus,
+.pane-loans .renew-loan-button .renewable:focus,
+.pane-debts .renew-loan-button .renewable:focus,
+.pane-bookmarks .renew-loan-button .renewable:focus,
+.pane-reservations .reserve-button:focus,
+.pane-loans .reserve-button:focus,
+.pane-debts .reserve-button:focus,
+.pane-bookmarks .reserve-button:focus,
+.pane-reservations .update-reservations .form-submit:focus,
+.pane-reservations .renew-loan-button .form-submit:focus,
+.pane-loans .update-reservations .form-submit:focus,
+.pane-loans .renew-loan-button .form-submit:focus,
+.pane-debts .update-reservations .form-submit:focus,
+.pane-debts .renew-loan-button .form-submit:focus,
+.pane-bookmarks .update-reservations .form-submit:focus,
+.pane-bookmarks .renew-loan-button .form-submit:focus,
+.pane-debts .pay-button .form-submit:focus,
+.alma-item-list .item-details .reserve-button:focus,
+.ding-item-list-item .item-details .reserve-button:focus,
+.field-name-ding-entity-buttons .reserve-button:hover,
+.button-see-online:hover,
+.ticket-available:hover,
+.pane-reservations .renew-loan-button .renewable:hover,
+.pane-loans .renew-loan-button .renewable:hover,
+.pane-debts .renew-loan-button .renewable:hover,
+.pane-bookmarks .renew-loan-button .renewable:hover,
+.pane-reservations .reserve-button:hover,
+.pane-loans .reserve-button:hover,
+.pane-debts .reserve-button:hover,
+.pane-bookmarks .reserve-button:hover,
+.pane-reservations .update-reservations .form-submit:hover,
+.pane-reservations .renew-loan-button .form-submit:hover,
+.pane-loans .update-reservations .form-submit:hover,
+.pane-loans .renew-loan-button .form-submit:hover,
+.pane-debts .update-reservations .form-submit:hover,
+.pane-debts .renew-loan-button .form-submit:hover,
+.pane-bookmarks .update-reservations .form-submit:hover,
+.pane-bookmarks .renew-loan-button .form-submit:hover,
+.pane-debts .pay-button .form-submit:hover,
+.alma-item-list .item-details .reserve-button:hover,
+.ding-item-list-item .item-details .reserve-button:hover,
+.field-name-ding-entity-buttons .reserve-button:active,
+.button-see-online:active,
+.ticket-available:active,
+.pane-reservations .renew-loan-button .renewable:active,
+.pane-loans .renew-loan-button .renewable:active,
+.pane-debts .renew-loan-button .renewable:active,
+.pane-bookmarks .renew-loan-button .renewable:active,
+.pane-reservations .reserve-button:active,
+.pane-loans .reserve-button:active,
+.pane-debts .reserve-button:active,
+.pane-bookmarks .reserve-button:active,
+.pane-reservations .update-reservations .form-submit:active,
+.pane-reservations .renew-loan-button .form-submit:active,
+.pane-loans .update-reservations .form-submit:active,
+.pane-loans .renew-loan-button .form-submit:active,
+.pane-debts .update-reservations .form-submit:active,
+.pane-debts .renew-loan-button .form-submit:active,
+.pane-bookmarks .update-reservations .form-submit:active,
+.pane-bookmarks .renew-loan-button .form-submit:active,
+.pane-debts .pay-button .form-submit:active,
+.alma-item-list .item-details .reserve-button:active,
+.ding-item-list-item .item-details .reserve-button:active,
+.form-submit, #edit-cancel, .search .form-submit,
+.search-field-in-content .form-submit,
+.user .form-submit,
+.field-name-ding-entity-buttons .action-button,
+.bookmark-button {
+  background: #8cc63a;
+  box-shadow: none;
+}
