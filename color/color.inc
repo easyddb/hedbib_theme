@@ -6,6 +6,7 @@ $info = array(
   'fields' => array(
     'base' => t('Base color'),
     'text' => t('Text color'),
+    'body_background_color' => t('Body background color'),
     'topbar_background_color' => t('Topbar background color'),
     'topbar_text_color' => t('Topbar text color'),
     'header_background_color' => t('Header background color'),
@@ -37,6 +38,9 @@ $info = array(
     'default_button_gradient' => t('Default button gradient'),
     'popup_background' => t('Popup background'),
     'popup_text' => t('Popup text'),
+	'carousel_background' => t('Carousel background'),
+	'carousel_tab_background' => t('Carousel tab background'),
+	'carousel_tab_active_background' => t('Carousel active tab background'),
   ),
   // Pre-defined color schemes.
   'schemes' => array(
@@ -45,6 +49,7 @@ $info = array(
       'colors' => array(
         'base' => '#0072b9',
         'text' => '#494949',
+        'body_background_color' => '#efefef',
         'topbar_background_color' => '#ececec',
         'topbar_text_color' => '#1f3244',
         'header_background_color' => '#6bafdb',
@@ -75,6 +80,9 @@ $info = array(
         'default_button_gradient' => '#1e1e1f',
         'popup_background' => '#6bafda',
         'popup_text' => '#000003',
+		'carousel_background' => '#d8d8d8',
+		'carousel_tab_background' => '#7f7f7f',
+		'carousel_tab_active_background' => '#b7b7b5',
       ),
     ),
     'classic' => array(

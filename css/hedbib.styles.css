@@ -31,6 +31,7 @@
  * Every color settings MUST be in HEX format..
  * @author magnify
  */
+/* Body */
 /* Topbar */
 /* Header */
 /* Navigation */
@@ -43,6 +44,167 @@
 /* Buttons */
 /* Dialog box */
 /* Funny facts */
+/* Carousel */
+/* Colors settings */
+/* line 3, ../sass/configuration/_colors_settings.scss */
+body {
+  background-color: #efefef;
+}
+
+/* line 7, ../sass/configuration/_colors_settings.scss */
+.header-wrapper {
+  background-color: #6bafdb;
+}
+
+/* line 11, ../sass/configuration/_colors_settings.scss */
+.topbar {
+  background-color: #ececec;
+  color: #1f3244;
+}
+
+/* line 16, ../sass/configuration/_colors_settings.scss */
+.navigation-wrapper {
+  background-color: #1f3245;
+  color: #fffffc;
+}
+
+/* line 21, ../sass/configuration/_colors_settings.scss */
+.main-menu .menu-item,
+.header-wrapper .pane-user-menu .sub-menu .menu-item,
+.secondary-menu .menu-item,
+.system-user-menu .menu-item {
+  color: #fffffc;
+}
+
+/* line 28, ../sass/configuration/_colors_settings.scss */
+.main-menu .menu-item:hover,
+.header-wrapper .pane-user-menu .sub-menu .menu-item:hover,
+.secondary-menu .menu-item:hover,
+.system-user-menu .menu-item:hover,
+.main-menu .menu-item.active,
+.header-wrapper .pane-user-menu .sub-menu .menu-item.active,
+.secondary-menu .menu-item.active,
+.system-user-menu .menu-item.active {
+  color: #8cc63e;
+}
+
+/* line 39, ../sass/configuration/_colors_settings.scss */
+.rs-carousel {
+  background-color: #a32e10;
+}
+
+/* line 43, ../sass/configuration/_colors_settings.scss */
+.rs-carousel-inner {
+  background: #d8d8d8;
+}
+
+/* line 47, ../sass/configuration/_colors_settings.scss */
+.rs-carousel-tabs .rs-carousel-list-tabs .rs-carousel-item.active a,
+.rs-carousel-tabs .rs-carousel-list-tabs .rs-carousel-item a:hover {
+  background-color: #b7b7b5;
+}
+
+/* line 52, ../sass/configuration/_colors_settings.scss */
+.rs-carousel-tabs .rs-carousel-list-tabs .rs-carousel-item.active a:before {
+  border-bottom-color: #b7b7b5;
+}
+
+/* line 56, ../sass/configuration/_colors_settings.scss */
+.rs-carousel-tabs .rs-carousel-list-tabs .rs-carousel-item a {
+  background-color: #7f7f7f;
+}
+
+/* line 60, ../sass/configuration/_colors_settings.scss */
+.label a,
+.view-node-search-result .list-item .field-type-taxonomy-term-reference a a,
+.ting-reference-reverse-list .list-item .field-type-taxonomy-term-reference a a,
+.subjects .subject a,
+.news-list .news-label a,
+.super-heading .field-name-field-ding-news-library .field-item a {
+  background-color: #8cc63a;
+  color: #fffffd;
+}
+
+/* line 70, ../sass/configuration/_colors_settings.scss */
+.label a:hover,
+.view-node-search-result .list-item .field-type-taxonomy-term-reference a a:hover,
+.ting-reference-reverse-list .list-item .field-type-taxonomy-term-reference a a:hover,
+.subjects .subject a:hover,
+.news-list .news-label a:hover,
+.super-heading .field-name-field-ding-news-library .field-item a:hover,
+.event-list-leaf .event-list-day {
+  background-color: #8cc63b;
+  color: #fafaf7;
+}
+
+/* line 81, ../sass/configuration/_colors_settings.scss */
+.layout-wrapper {
+  background-color: #fffffe;
+}
+
+/* line 85, ../sass/configuration/_colors_settings.scss */
+.field-name-field-ding-news-materials .field-item,
+.library-list .views-row, .field-name-field-ding-page-materials .field-item,
+.news-list .news-list-item,
+#ding-library-front .opening-hours-week .header,
+.groups-list .groups-list-item {
+  background-color: #ebebeb;
+}
+
+/* line 93, ../sass/configuration/_colors_settings.scss */
+.field-name-field-ding-news-materials .field-item:nth-child(odd),
+.library-list .views-row:nth-child(odd),
+.field-name-field-ding-page-materials .field-item:nth-child(odd),
+.news-list .news-list-item:nth-child(odd),
+.event-list .event-list-item:nth-child(odd),
+.opening-hours-week .days .odd,
+.staff-list .staff-list-item:nth-child(odd),
+.staff-list-all .staff-list-item:nth-child(odd),
+.groups-list .groups-list-item:nth-child(odd) {
+  background-color: #e8e8e8;
+  color: #4c4c4c;
+}
+
+/* line 106, ../sass/configuration/_colors_settings.scss */
+.field-name-field-ding-news-materials .field-item:nth-child(even),
+.library-list .views-row:nth-child(even),
+.field-name-field-ding-page-materials .field-item:nth-child(even),
+.news-list .news-list-item:nth-child(even),
+.event-list .event-list-item:nth-child(even),
+.opening-hours-week .days .even,
+.staff-list .staff-list-item:nth-child(even),
+.staff-list-all .staff-list-item:nth-child(even),
+.groups-list .groups-list-item:nth-child(even) {
+  background-color: #f2f2f2;
+  color: #4c4c4c;
+}
+
+/* line 119, ../sass/configuration/_colors_settings.scss */
+.footer .pane-title {
+  color: #fffff9;
+}
+
+/* line 123, ../sass/configuration/_colors_settings.scss */
+a:link {
+  color: #fb9900;
+}
+
+/* line 127, ../sass/configuration/_colors_settings.scss */
+a:visited,
+a:hover {
+  color: #b46e01;
+}
+
+/* line 132, ../sass/configuration/_colors_settings.scss */
+.ui-dialog {
+  background-color: #fffffe;
+}
+
+/* line 136, ../sass/configuration/_colors_settings.scss */
+.ui-widget-content {
+  color: #000003;
+}
+
 /**
  * Rules that can be configured is located in this file.
  *

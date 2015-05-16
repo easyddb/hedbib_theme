@@ -5,6 +5,8 @@
  * @author magnify
  */
 
+/* Body */ 
+$body-background-color:           #efefef !default;
 
 /* Topbar */
 $topbar-background-color:         #ececec !default;
@@ -57,3 +59,8 @@ $dialog-text: #000003 !default;
 
 
 /* Funny facts */
+
+/* Carousel */
+$carousel-background:             #d8d8d8 !default;
+$carousel-tab-background:         #7f7f7f !default;
+$carousel-tab-active-background:  #b7b7b5 !default;
