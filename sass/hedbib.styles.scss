@@ -17,13 +17,13 @@
 // Include configuration
 @import "../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_variables";
 @import "configuration/_colors";
-@import "configuration/_colors_settings";
+
 @import "../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_configuration";
 
 
 // Include framework
 @import "../../../../../profiles/ding2/themes/ddbasic/sass/framework/_mixins";
 @import "../../../../../profiles/ding2/themes/ddbasic/sass/framework/_buttons";
-
+@import "../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_colors_settings";
 // Custom theme styles
 @import "_custom";
