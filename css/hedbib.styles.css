@@ -45,234 +45,62 @@
 /* Dialog box */
 /* Funny facts */
 /* Carousel */
-/* Colors settings */
-/* line 3, ../sass/configuration/_colors_settings.scss */
-body {
-  background-color: #efefef;
-}
-
-/* line 7, ../sass/configuration/_colors_settings.scss */
-.header-wrapper {
-  background-color: #6bafdb;
-}
-
-/* line 11, ../sass/configuration/_colors_settings.scss */
-.topbar {
-  background-color: #ececec;
-  color: #1f3244;
-}
-
-/* line 16, ../sass/configuration/_colors_settings.scss */
-.navigation-wrapper {
-  background-color: #1f3245;
-  color: #fffffc;
-}
-
-/* line 21, ../sass/configuration/_colors_settings.scss */
-.main-menu .menu-item,
-.header-wrapper .pane-user-menu .sub-menu .menu-item,
-.secondary-menu .menu-item,
-.system-user-menu .menu-item {
-  color: #fffffc;
-}
-
-/* line 28, ../sass/configuration/_colors_settings.scss */
-.main-menu .menu-item:hover,
-.header-wrapper .pane-user-menu .sub-menu .menu-item:hover,
-.secondary-menu .menu-item:hover,
-.system-user-menu .menu-item:hover,
-.main-menu .menu-item.active,
-.header-wrapper .pane-user-menu .sub-menu .menu-item.active,
-.secondary-menu .menu-item.active,
-.system-user-menu .menu-item.active {
-  color: #8cc63e;
-}
-
-/* line 39, ../sass/configuration/_colors_settings.scss */
-.rs-carousel {
-  background-color: #a32e10;
-}
-
-/* line 43, ../sass/configuration/_colors_settings.scss */
-.rs-carousel-inner {
-  background: #d8d8d8;
-}
-
-/* line 47, ../sass/configuration/_colors_settings.scss */
-.rs-carousel-tabs .rs-carousel-list-tabs .rs-carousel-item.active a,
-.rs-carousel-tabs .rs-carousel-list-tabs .rs-carousel-item a:hover {
-  background-color: #b7b7b5;
-}
-
-/* line 52, ../sass/configuration/_colors_settings.scss */
-.rs-carousel-tabs .rs-carousel-list-tabs .rs-carousel-item.active a:before {
-  border-bottom-color: #b7b7b5;
-}
-
-/* line 56, ../sass/configuration/_colors_settings.scss */
-.rs-carousel-tabs .rs-carousel-list-tabs .rs-carousel-item a {
-  background-color: #7f7f7f;
-}
-
-/* line 60, ../sass/configuration/_colors_settings.scss */
-.label a,
-.view-node-search-result .list-item .field-type-taxonomy-term-reference a a,
-.ting-reference-reverse-list .list-item .field-type-taxonomy-term-reference a a,
-.subjects .subject a,
-.news-list .news-label a,
-.super-heading .field-name-field-ding-news-library .field-item a {
-  background-color: #8cc63a;
-  color: #fffffd;
-}
-
-/* line 70, ../sass/configuration/_colors_settings.scss */
-.label a:hover,
-.view-node-search-result .list-item .field-type-taxonomy-term-reference a a:hover,
-.ting-reference-reverse-list .list-item .field-type-taxonomy-term-reference a a:hover,
-.subjects .subject a:hover,
-.news-list .news-label a:hover,
-.super-heading .field-name-field-ding-news-library .field-item a:hover,
-.event-list-leaf .event-list-day {
-  background-color: #8cc63b;
-  color: #fafaf7;
-}
-
-/* line 81, ../sass/configuration/_colors_settings.scss */
-.layout-wrapper {
-  background-color: #fffffe;
-}
-
-/* line 85, ../sass/configuration/_colors_settings.scss */
-.field-name-field-ding-news-materials .field-item,
-.library-list .views-row, .field-name-field-ding-page-materials .field-item,
-.news-list .news-list-item,
-#ding-library-front .opening-hours-week .header,
-.groups-list .groups-list-item {
-  background-color: #ebebeb;
-}
-
-/* line 93, ../sass/configuration/_colors_settings.scss */
-.field-name-field-ding-news-materials .field-item:nth-child(odd),
-.library-list .views-row:nth-child(odd),
-.field-name-field-ding-page-materials .field-item:nth-child(odd),
-.news-list .news-list-item:nth-child(odd),
-.event-list .event-list-item:nth-child(odd),
-.opening-hours-week .days .odd,
-.staff-list .staff-list-item:nth-child(odd),
-.staff-list-all .staff-list-item:nth-child(odd),
-.groups-list .groups-list-item:nth-child(odd) {
-  background-color: #e8e8e8;
-  color: #4c4c4c;
-}
-
-/* line 106, ../sass/configuration/_colors_settings.scss */
-.field-name-field-ding-news-materials .field-item:nth-child(even),
-.library-list .views-row:nth-child(even),
-.field-name-field-ding-page-materials .field-item:nth-child(even),
-.news-list .news-list-item:nth-child(even),
-.event-list .event-list-item:nth-child(even),
-.opening-hours-week .days .even,
-.staff-list .staff-list-item:nth-child(even),
-.staff-list-all .staff-list-item:nth-child(even),
-.groups-list .groups-list-item:nth-child(even) {
-  background-color: #f2f2f2;
-  color: #4c4c4c;
-}
-
-/* line 119, ../sass/configuration/_colors_settings.scss */
-.footer .pane-title {
-  color: #fffff9;
-}
-
-/* line 123, ../sass/configuration/_colors_settings.scss */
-a:link {
-  color: #fb9900;
-}
-
-/* line 127, ../sass/configuration/_colors_settings.scss */
-a:visited,
-a:hover {
-  color: #b46e01;
-}
-
-/* line 132, ../sass/configuration/_colors_settings.scss */
-.ui-dialog {
-  background-color: #fffffe;
-}
-
-/* line 136, ../sass/configuration/_colors_settings.scss */
-.ui-widget-content {
-  color: #000003;
-}
-
 /**
  * Rules that can be configured is located in this file.
  *
  * @author magnify
  */
 /* Topbar background color */
-/* line 9, ../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_configuration.scss */
 .topbar {
   padding-top: 20px;
   background-color: #ececec;
 }
 
 /* Header background color */
-/* line 17, ../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_configuration.scss */
 .header-wrapper {
   background-color: #6bafdb;
 }
 
 /* Navigation background color */
-/* line 24, ../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_configuration.scss */
 .navigation-wrapper {
   background-color: #1f3245;
 }
 
 /* Links */
-/* line 31, ../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_configuration.scss */
 a {
   font-weight: 400;
 }
-/* line 34, ../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_configuration.scss */
 a:link {
   color: #fb9900;
   text-decoration: none;
 }
-/* line 39, ../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_configuration.scss */
 a:visited {
   color: #ae6a00;
   text-decoration: none;
 }
-/* line 44, ../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_configuration.scss */
 a:hover {
   color: #b46e01;
   text-decoration: underline;
 }
-/* line 48, ../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_configuration.scss */
 a:hover i[class^="icon-"] {
   text-decoration: none;
 }
-/* line 53, ../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_configuration.scss */
 a:focus {
   color: #b46e01;
 }
 
 /* Layout background color */
-/* line 61, ../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_configuration.scss */
 .layout-wrapper {
   background-color: #fffffe;
 }
 
 /* Article background extends */
 /* Footer background color */
-/* line 83, ../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_configuration.scss */
 .footer {
   background-color: #8cc63c;
 }
 
 /* Bottom background color */
-/* line 90, ../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_configuration.scss */
 .bottom {
   background-color: #7eb435;
 }
@@ -305,10 +133,35 @@ a:focus {
    ========================================================================== */
 /* Extends
    ========================================================================== */
+.field-name-ding-entity-buttons .reserve-button, .button-see-online {
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 100%;
+  padding: 8px 14px;
+  position: relative;
+  box-shadow: 0 0 1px #595959 inset;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100%;
+}
+.field-name-ding-entity-buttons .reserve-button:focus, .button-see-online:focus, .field-name-ding-entity-buttons .reserve-button:hover, .button-see-online:hover, .field-name-ding-entity-buttons .reserve-button:active, .button-see-online:active {
+  text-decoration: none;
+}
+.field-name-ding-entity-buttons .disabled.reserve-button, .disabled.button-see-online, .field-name-ding-entity-buttons [disabled].reserve-button, [disabled].button-see-online {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=65);
+  opacity: 0.65;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  cursor: default;
+}
+
 /* Mixins
    ========================================================================== */
 /* Default button, we dont use gradiant mixin sin since it's part of color module */
-/* line 97, ../../../../../profiles/ding2/themes/ddbasic/sass/framework/_buttons.scss */
 .button,
 a.button {
   background-color: #444443;
@@ -326,7 +179,6 @@ a.button {
   background-image: -webkit-linear-gradient(#444443, #1e1e1f);
   background-image: linear-gradient(#444443, #1e1e1f);
 }
-/* line 109, ../../../../../profiles/ding2/themes/ddbasic/sass/framework/_buttons.scss */
 .button:link, .button:visited, .button:focus, .button:active,
 a.button:link,
 a.button:visited,
@@ -337,7 +189,6 @@ a.button:active {
   background-image: none;
   background-color: #444443;
 }
-/* line 119, ../../../../../profiles/ding2/themes/ddbasic/sass/framework/_buttons.scss */
 .button:hover,
 a.button:hover {
   background-color: #1e1e1e;
@@ -347,10 +198,34 @@ a.button:hover {
 /* Default button */
 /* Theme button */
 /* Action button */
+.field-name-ding-entity-buttons .reserve-button, .button-see-online {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzYwYTUwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzMzNTkwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #60a500), color-stop(100%, #335900));
+  background-image: -moz-linear-gradient(#60a500, #335900);
+  background-image: -webkit-linear-gradient(#60a500, #335900);
+  background-image: linear-gradient(#60a500, #335900);
+  /* Make sure buttons get a background color in IE */
+  background-color: #60a500;
+  border: 0;
+  color: #fff;
+}
+.field-name-ding-entity-buttons .reserve-button:link, .button-see-online:link, .field-name-ding-entity-buttons .reserve-button:visited, .button-see-online:visited {
+  color: #fff;
+}
+.field-name-ding-entity-buttons .reserve-button:link, .button-see-online:link, .field-name-ding-entity-buttons .reserve-button:visited, .button-see-online:visited, .field-name-ding-entity-buttons .reserve-button:focus, .button-see-online:focus, .field-name-ding-entity-buttons .reserve-button:hover, .button-see-online:hover, .field-name-ding-entity-buttons .reserve-button:active, .button-see-online:active {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzUxOGIwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzI1M2YwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #518b00), color-stop(100%, #253f00));
+  background-image: -moz-linear-gradient(#518b00, #253f00);
+  background-image: -webkit-linear-gradient(#518b00, #253f00);
+  background-image: linear-gradient(#518b00, #253f00);
+  background-color: #335900;
+}
+
 /* Warning button */
 /* Danger button */
 /* Don't use native buttons on iOS */
-/* line 152, ../../../../../profiles/ding2/themes/ddbasic/sass/framework/_buttons.scss */
 input[type=submit].button,
 button.button {
   -webkit-appearance: none;
@@ -358,7 +233,6 @@ button.button {
 
 /* Correct FF button padding */
 @-moz-document url-prefix() {
-  /* line 160, ../../../../../profiles/ding2/themes/ddbasic/sass/framework/_buttons.scss */
   button::-moz-focus-inner,
   input[type="reset"]::-moz-focus-inner,
   input[type="button"]::-moz-focus-inner,
@@ -368,35 +242,436 @@ button.button {
     padding: 0;
   }
 }
-/* line 1, ../sass/_custom.scss */
+/**
+ * Rules that can be configured is located in this file.
+ */
+/* Topbar background color */
+.topbar {
+  background-color: #ececec;
+}
+
+/* Header background color */
+.header-wrapper {
+  background-color: #6bafdb;
+}
+
+/* Navigation background color */
+.navigation-wrapper {
+  background-color: #1f3245;
+}
+
+/* Links */
+a:link {
+  color: #fb9900;
+}
+a:hover {
+  color: #b46e01;
+}
+a:focus {
+  color: #b46e01;
+}
+
+/* Layout background color */
+.layout-wrapper {
+  background-color: #fffffe;
+}
+
+/* Article background extends */
+/* Footer background color */
+.footer {
+  background-color: #8cc63c;
+}
+
+/* Bottom background color */
+.bottom {
+  background-color: #7eb435;
+}
+
+/**
+ * Base
+ */
+body {
+  background-color: #efefef;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+a:link {
+  color: rgba(0, 0, 0, 0.7);
+}
+a:visited {
+  color: rgba(0, 0, 0, 0.7);
+}
+a:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+a:focus {
+  color: rgba(0, 0, 0, 0.7);
+}
+a:active {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* Fieldset
+   ========================================================================== */
+fieldset {
+  border-color: #efefef;
+}
+
+/**
+ * Buttons
+ */
+/* Mixins
+   ========================================================================== */
+/* Default button, we dont use gradiant mixin sin since it's part of color module */
+.button,
+a.button {
+  background-color: #444443;
+  color: #fffff8;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ0NDQ0MyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFlMWUxZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #444443), color-stop(100%, #1e1e1f));
+  background-image: -moz-linear-gradient(#444443, #1e1e1f);
+  background-image: -webkit-linear-gradient(#444443, #1e1e1f);
+  background-image: linear-gradient(#444443, #1e1e1f);
+}
+.button:link, .button:visited, .button:focus, .button:active,
+a.button:link,
+a.button:visited,
+a.button:focus,
+a.button:active {
+  color: #fffff8;
+  background-color: #444443;
+}
+.button:hover,
+a.button:hover {
+  background-color: #1e1e1e;
+}
+
+/* Default button */
+/* Theme button */
+/* Action button */
+.field-name-ding-entity-buttons .reserve-button, .button-see-online {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzYwYTUwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzMzNTkwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #60a500), color-stop(100%, #335900));
+  background-image: -moz-linear-gradient(#60a500, #335900);
+  background-image: -webkit-linear-gradient(#60a500, #335900);
+  background-image: linear-gradient(#60a500, #335900);
+  /* Make sure buttons get a background color in IE */
+  background-color: #60a500;
+  color: #fff;
+}
+.field-name-ding-entity-buttons .reserve-button:link, .button-see-online:link, .field-name-ding-entity-buttons .reserve-button:visited, .button-see-online:visited {
+  color: #fff;
+}
+.field-name-ding-entity-buttons .reserve-button:link, .button-see-online:link, .field-name-ding-entity-buttons .reserve-button:visited, .button-see-online:visited, .field-name-ding-entity-buttons .reserve-button:focus, .button-see-online:focus, .field-name-ding-entity-buttons .reserve-button:hover, .button-see-online:hover, .field-name-ding-entity-buttons .reserve-button:active, .button-see-online:active {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzUxOGIwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzI1M2YwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #518b00), color-stop(100%, #253f00));
+  background-image: -moz-linear-gradient(#518b00, #253f00);
+  background-image: -webkit-linear-gradient(#518b00, #253f00);
+  background-image: linear-gradient(#518b00, #253f00);
+  background-color: #335900;
+}
+
+/* Warning button */
+/* Danger button */
+/**
+ * Labels
+ */
+.label {
+  /* Make sure it works with a wrapper */
+}
+.label a {
+  background-color: #8cc63a;
+  color: #fffffd;
+}
+.label a:link, .label a:visited {
+  color: #fffffd;
+}
+.label a:hover {
+  background-color: #8cc63b;
+  color: #fafaf7;
+}
+
+/**
+ * Navigation
+ */
+/* Topbar menu
+   ========================================================================== */
+.topbar-menu .menu-item {
+  color: #1f3244;
+}
+
+/* Sub menu
+   ========================================================================== */
+.sub-menu > li a {
+  color: #fb9900;
+}
+.sub-menu > li a:hover {
+  color: #b46e01;
+}
+.sub-menu li:before {
+  color: #fb9900;
+}
+
+/* Footer menus
+   ========================================================================== */
+.footer .pane-title {
+  color: #fffff9;
+}
+.footer .menu li:before {
+  color: #fffff9;
+}
+.footer .menu li a {
+  color: #fffff9;
+}
+
+/* Action Links
+   ========================================================================== */
+li {
+  color: #fb9900;
+}
+li:before {
+  color: #fb9900;
+}
+
+/**
+ * Layout
+ */
+.bottom {
+  background-color: #191919;
+}
+
+.pane-alma-item-list {
+  background-color: #fffffe;
+}
+
+/**
+ * Carousel
+ */
+.rs-carousel-inner {
+  background-color: #d8d8d8;
+}
+
+/* Pagination and previous and next buttons
+   ========================================================================== */
+.rs-carousel-action-prev,
+.rs-carousel-action-next {
+  background-color: #6bafdb;
+}
+
+/* Carousel tabs
+   ========================================================================== */
+.rs-carousel-tabs .rs-carousel-list-tabs .rs-carousel-item a {
+  background-color: #7f7f7f;
+}
+.rs-carousel-tabs .rs-carousel-list-tabs .rs-carousel-item a:hover {
+  background-color: #b7b7b5;
+}
+.rs-carousel-tabs .rs-carousel-list-tabs .rs-carousel-item.active a {
+  background-color: #b7b7b5;
+}
+.rs-carousel-tabs .rs-carousel-list-tabs .rs-carousel-item.active a:before {
+  border: 10px solid transparent;
+  content: "";
+  height: 0;
+  position: absolute;
+  width: 0;
+  top: -20px;
+  border-bottom-color: #b7b7b5;
+  margin-left: -10px;
+  left: 50%;
+}
+
+/**
+ * Item list
+ */
+.pane-ding-item-list {
+  background-color: #fffffe;
+}
+
+/**
+ * Item viewer
+ */
+.ding-item-viewer .ui-tabs-nav {
+  background: #7eb435;
+}
+
+.view-mode-ding-item-viewer-small .image-wrapper {
+  background: #7eb435;
+}
+
+/**
+ * Ding nodelist
+ */
+.ding_nodelist .event-time .event-day {
+  background: #fb9900;
+}
+.ding_nodelist .event-label {
+  background-image: #8cc63a;
+}
+.ding_nodelist .node, .ding_nodelist.ding_nodelist-horizontal_accordion .data {
+  background-image: #8cc63a;
+}
+
+.ding_nodelist-carousel .next-prev .prev:hover,
+.ding_nodelist-carousel .next-prev .next:hover {
+  background-color: #fb9900;
+}
+.ding_nodelist-carousel .next-prev .prev:after,
+.ding_nodelist-carousel .next-prev .next:after {
+  color: #fb9900;
+}
+.ding_nodelist-carousel .pagination .selected {
+  background-color: #fb9900;
+}
+
+.ding_nodelist-single {
+  background-color: #fffffe;
+}
+
+.ding_nodelist-slider .next-prev a:hover {
+  background-color: #fb9900;
+}
+
+.ding_nodelist-taxonomy .item:nth-child(odd) {
+  background-color: #e8e8e8;
+}
+.ding_nodelist-taxonomy .item:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/**
+ * Ding ting type search
+ */
+.pane-easyddb-search-ext-search-ext {
+  background-color: #fffffe;
+}
+
+/**
+ * Event styling
+ */
+/* Event list
+   ========================================================================== */
+.event-list .event-list-item:nth-child(odd) {
+  background-color: #e8e8e8;
+}
+.event-list .event-list-item:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/**
+ * Groups
+ */
+/* Groups lists
+   ========================================================================== */
+.groups-list .groups-list-item {
+  background-color: #ebebeb;
+}
+.groups-list .groups-list-item:nth-child(odd) {
+  background-color: #e8e8e8;
+}
+.groups-list .groups-list-item:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/**
+ * News
+ */
+.news-list .news-list-item {
+  background-color: #ebebeb;
+}
+.news-list .news-list-item:nth-child(odd) {
+  background-color: #e8e8e8;
+}
+.news-list .news-list-item:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/**
+ * Opening hours
+ */
+.opening-hours-week .days .odd {
+  background-color: #e8e8e8;
+}
+.opening-hours-week .days .even {
+  background-color: #f2f2f2;
+}
+
+.pane-ding-library-opening-hours-ding-library-opened-today {
+  background-color: #fffffe;
+}
+
+/**
+ * Search
+ */
+.pane-ding-facetbrowser a:visited {
+  color: #fb9900;
+}
+
+.pane-ting-search-records-per-page a {
+  border-right-color: #b46e01;
+}
+.pane-ting-search-records-per-page a.selected {
+  color: #b46e01;
+}
+
+.pane-ding-toggle-format-toggle #ding-toggle-format.ding-toggle-format-short:before,
+.pane-ding-toggle-format-toggle #ding-toggle-format.ding-toggle-format-long:after {
+  color: #fb9900;
+}
+
+/* Search autocomplete
+   ========================================================================== */
+#autocomplete li a {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/**
+ * Staff
+ */
+.staff-list .staff-list-item:nth-child(odd),
+.staff-list-all .staff-list-item:nth-child(odd) {
+  background-color: #e8e8e8;
+}
+.staff-list .staff-list-item:nth-child(even),
+.staff-list-all .staff-list-item:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/**
+ * User
+ */
+.user-status-loan,
+.user-status-reservation {
+  color: #fb9900;
+}
+
 body {
   font-size: 110%;
 }
 
-/* line 5, ../sass/_custom.scss */
 .search label,
 .search-field-in-content label,
 .user label {
   color: #1f3244;
 }
 
-/* line 11, ../sass/_custom.scss */
 .topbar-menu .menu-item {
   color: #1f3244;
 }
 
-/* line 16, ../sass/_custom.scss */
 .topbar-menu .menu-item.active,
 .topbar-menu .menu-item:hover {
   background-color: #6bafdb;
 }
 
-/* line 22, ../sass/_custom.scss */
 .site-name a {
   display: none;
 }
 
-/* line 26, ../sass/_custom.scss */
 .main-menu .menu-item,
 .header-wrapper .pane-user-menu .sub-menu .menu-item,
 .secondary-menu .menu-item,
@@ -404,7 +679,6 @@ body {
   color: #fffffc;
 }
 
-/* line 33, ../sass/_custom.scss */
 .main-menu .menu-item.active,
 .header-wrapper .pane-user-menu .sub-menu .menu-item.active,
 .secondary-menu .menu-item.active,
@@ -422,7 +696,6 @@ body {
   color: #8cc63e;
 }
 
-/* line 50, ../sass/_custom.scss */
 .label a:link,
 .view-node-search-result .list-item .field-type-taxonomy-term-reference a a:link,
 .ting-reference-reverse-list .list-item .field-type-taxonomy-term-reference a a:link,
@@ -438,7 +711,6 @@ body {
   background-color: #8cc63a;
 }
 
-/* line 65, ../sass/_custom.scss */
 .ding_nodelist .event-time .event-day,
 .ding_nodelist-carousel .pagination .selected,
 .ding_nodelist-slider .next-prev a:hover,
@@ -446,24 +718,20 @@ body {
   background-color: #fb9900;
 }
 
-/* line 72, ../sass/_custom.scss */
 .sub-menu > li a,
 .sub-menu li:before {
   color: #fb9900;
 }
 
-/* line 77, ../sass/_custom.scss */
 .sub-menu > li a:hover,
 .sub-menu li:before:hover {
   color: #b46e01;
 }
 
-/* line 82, ../sass/_custom.scss */
 .bottom {
   background-color: #191919;
 }
 
-/* line 86, ../sass/_custom.scss */
 .ding_nodelist-carousel .node,
 .ding_nodelist.ding_nodelist-horizontal_accordion .data,
 .ding_nodelist-single .node,
@@ -471,7 +739,6 @@ body {
   background: rgba(31, 50, 69, 0.85);
 }
 
-/* line 93, ../sass/_custom.scss */
 .field-name-ding-entity-buttons .reserve-button:link,
 .button-see-online:link,
 .ticket-available:link,
