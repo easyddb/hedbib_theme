@@ -7,3 +7,5 @@
   base theme = ddbasic
   
   stylesheets[all][] = css/hedbib.styles.css
+  
+  scripts[] = js/hedbib.js
