@@ -43,7 +43,9 @@ body {
 .main-menu .menu-item:hover,
 .header-wrapper .pane-user-menu .sub-menu .menu-item:hover,
 .secondary-menu .menu-item:hover,
-.system-user-menu .menu-item:hover {
+.system-user-menu .menu-item:hover,
+.bottom a:link,
+.bottom a:hover {
   color: $navigation-text-color-active;
 }
 
@@ -69,6 +71,11 @@ body {
   background-color: $link-color;
 }
 
+.ding_nodelist-horizontal_accordion .expand,
+.ding_nodelist-horizontal_accordion .slide-open .expand {
+  background-color: $header-background-color;
+}
+
 .sub-menu > li a,
 .sub-menu li:before {
   color: $link-color;
@@ -86,7 +93,10 @@ body {
 .ding_nodelist-carousel .node,
 .ding_nodelist.ding_nodelist-horizontal_accordion .data,
 .ding_nodelist-single .node,
-.ding_nodelist-vertical_accordion .va-content {
+.ding_nodelist-vertical_accordion .va-content,
+.rs-carousel-mask li:hover .rs-carousel-item-title,
+.rs-carousel-mask li .rs-carousel-item-title,
+.rs-carousel-mask li .rs-carousel-item-type {
   background: transparentize($navigation-background-color, .15);
 }
 
