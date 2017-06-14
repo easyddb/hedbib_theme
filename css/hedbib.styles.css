@@ -449,7 +449,7 @@ a.button:hover {
  * Carousel
  */
 .rs-carousel-inner {
-  background-color: #d8d8d8;
+  background: none;
 }
 
 /* Pagination and previous and next buttons
